@@ -1,0 +1,24 @@
+pci=01:12:00.1
+core = 5
+
+[grp1]
+core2 = 12
+
+[grp2 ]// This is another gropup
+core2 = 14i # This is a value
+
+[grep number 2 ] #This is a group
+
+core2 = 11
+# This is not a actual line
+
+// This is also a comment
+
+key = 12 // comment after key
+
+/* This is a multi-liner comment
+[grp 10]
+This is not a gropu
+keycomment=valuecomment
+to be taken care in my program.
+*/
